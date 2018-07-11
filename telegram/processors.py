@@ -262,14 +262,8 @@ class TelegramProcessor(AbstractProcessors):
         if chat_id < 0:
             if chat_id == bot_settings.group_chat_id:
                 self._process_photo(message)
-            elif bot_settings.is_admin(from_id):
-                self.answer_message(message, CommonMessages.NO_GROUP_CHAT_MESSAGES)
-            elif bot_settings.answer_forbidden:
-                self.answer_message(message, CommonMessages.ACCESS_VIOLATION_MESSAGES)
         elif bot_settings.is_user(from_id):
             self._process_photo(message)
-        elif bot_settings.answer_forbidden:
-            self.answer_message(message, CommonMessages.ACCESS_VIOLATION_MESSAGES)
 
     def _process_photo(self, message):
         if not bot_settings.paused:
