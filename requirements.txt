@@ -3,3 +3,4 @@ PyYAML==3.12
 html2text==2016.9.19
 msgpack-python==0.4.7
 pyodbc==4.0.17
+oauth2
