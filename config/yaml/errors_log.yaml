@@ -1,0 +1,13 @@
+errors:
+- [!!timestamp '2018-07-11 15:33:06.496000', "Traceback (most recent call last):\n\
+    \  File \"D:/Work/projects/photobooth/main.py\", line 18, in <module>\n    bot.process_messages()\n\
+    \  File \"D:\\Work\\projects\\photobooth\\telegram\\worker.py\", line 21, in process_messages\n\
+    \    command = self.extract_command(message).lower()\n  File \"D:\\Work\\projects\\\
+    photobooth\\telegram\\driver.py\", line 181, in extract_command\n    if message[\"\
+    text\"].startswith('/'):\nAttributeError: 'NoneType' object has no attribute 'startswith'\n"]
+- [!!timestamp '2018-07-11 15:33:48.664000', "Traceback (most recent call last):\n\
+    \  File \"D:/Work/projects/photobooth/main.py\", line 18, in <module>\n    bot.process_messages()\n\
+    \  File \"D:\\Work\\projects\\photobooth\\telegram\\worker.py\", line 21, in process_messages\n\
+    \    command = self.extract_command(message).lower()\n  File \"D:\\Work\\projects\\\
+    photobooth\\telegram\\driver.py\", line 181, in extract_command\n    if message[\"\
+    text\"].startswith('/'):\nAttributeError: 'NoneType' object has no attribute 'startswith'\n"]

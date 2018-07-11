@@ -1,0 +1,11 @@
+commands: {add_admin: /aa, approve: /approve, clean_errors: /cleanerrors,
+  clean_memory: /cleanmemory, clean_unknown: /cleanunknown, cleanadmin: /cleanadmin,
+  chat_message: /cm, message: /message,
+  delete_admin: /da, disapprove: /disapprove,
+  edit_admin_pass: /eap,
+  errors: /errors, help: /help,
+  info: /info, message_admin: /ma,
+  pause: /pause,
+  resume: /resume, set_group_chat: /sgc, status: /status,
+  stop: /stop,
+  token: /token, unknown: /unknown, auth_flickr: /oauth, edit_key: /ek, edit_secret: /es}

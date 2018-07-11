@@ -1,0 +1,4 @@
+flickr: {access_token_url: 'https://www.flickr.com/services/oauth/access_token', authorize_url: 'https://www.flickr.com/services/oauth/authorize',
+  key: !!python/unicode '1', oauth_token: 1,
+  oauth_token_secret: 1, request_token_url: 'https://www.flickr.com/services/oauth/request_token',
+  secret: !!python/unicode '1', upload_api_url: 'https://up.flickr.com/services/upload/'}

@@ -1,0 +1,1 @@
+eb: python main.py
