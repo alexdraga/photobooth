@@ -178,7 +178,7 @@ class TelegramDriver(object):
         :type message: dict
         :rtype: str or unicode
         """
-        if message["text"].startswith('/'):
+        if message["text"] is not None and message["text"].startswith('/'):
             return message["text"].split()[0].split('@')[0]
         else:
             return ''
